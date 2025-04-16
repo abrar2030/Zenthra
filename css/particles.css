@@ -1,0 +1,37 @@
+/* 
+==============================================
+PARTICLES ANIMATION STYLES
+==============================================
+*/
+
+.animated-hero-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: var(--border-radius-2xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    background: var(--primary);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+}
+
+.dark-theme .animated-hero-container {
+    box-shadow: var(--shadow-dark-lg);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--dark) 100%);
+}
+
+#particles-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .animated-hero-container {
+        height: 300px;
+        margin-top: var(--spacing-8);
+    }
+}

@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/particles.css">
 </head>
 <body>
     <!-- Preloader -->
@@ -77,7 +78,10 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="assets/hero-image.png" alt="Cloud and DevOps Engineering" class="hero-img">
+                <!-- Animated background replaces static image -->
+                <div class="animated-hero-container">
+                    <!-- Canvas will be inserted here by particles.js -->
+                </div>
             </div>
         </div>
         <div class="section-bg">
@@ -856,5 +860,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/particles.js"></script>
 </body>
 </html>
