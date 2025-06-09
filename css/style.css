@@ -726,13 +726,14 @@ li {
 .hero-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     z-index: var(--z-10);
 }
 
 .hero-text {
     max-width: 600px;
+    text-align: center;
 }
 
 .hero-title {
@@ -755,6 +756,7 @@ li {
     display: flex;
     gap: var(--spacing-4);
     margin-top: var(--spacing-6);
+    justify-content: center;
 }
 
 .hero-image {
